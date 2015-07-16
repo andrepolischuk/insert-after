@@ -1,7 +1,7 @@
 {
   "name": "insert-after",
   "description": "Insert node after",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "keywords": [
     "insert",
     "node",
@@ -9,7 +9,7 @@
   ],
   "repository": "andrepolischuk/insert-after",
   "devDependencies": {
-    "babel": "^5.5.6",
+    "babel": "^5.5.6"
   },
   "main": "index.es5.js",
   "scripts": {
