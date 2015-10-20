@@ -1,6 +1,6 @@
 # insert-after
 
-  > Insert node after
+> Insert node after
 
 ## Install
 
@@ -19,4 +19,4 @@ insertAfter(node, ref);
 
 ## License
 
-  MIT
+MIT
