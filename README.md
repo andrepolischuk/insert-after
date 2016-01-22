@@ -11,11 +11,27 @@ npm install --save insert-after
 ## Usage
 
 ```js
-var insertAfter = require('insert-after');
-var node = document.createElement('div');
-var ref = document.querySelector('.ref');
-insertAfter(node, ref);
+import insertAfter from 'insert-after';
+
+const node = document.createElement('div');
+insertAfter(node, document.querySelector('.ref'));
 ```
+
+## API
+
+### insertAfter(node, ref)
+
+#### node
+
+Type: `element`
+
+Node for insert.
+
+#### ref
+
+Type: `element`
+
+Reference node, after which `node` will be inserted.
 
 ## License
 
